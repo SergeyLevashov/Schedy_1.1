@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Giest";
+  src: url("./assets/GeistMono-Regular.otf");
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: var(--tg-theme-bg-color);
+}
+
+.giest-mono {
+  font-family: "Giest", monospace;
+}
